@@ -18,16 +18,43 @@ body {
   background-color: #0659ce;
 }
 
+input {
+  margin: 2px;
+  border: none;
+  border-radius: 8px;
+}
+
+input:nth-child(4) {
+  background: #0e0000;
+  color: #FFFFFF;
+}
+
 input[type=text] {
-  
+  width: calc(100% - 4px);
+  height: 55px;
+  background: #e2e2e2;
 }
 
 input[type=button] {
   width: 100px;
   height: 50px;
-  margin: 2px;
+}
+
+input[type=button]:hover {
+  transform: scale(1.1);
 }
 
 div#calculadora div {
   display: flex;
 }
+
+div#quarta input:nth-child(1) {
+  background: #76777c;
+  color: #121212;
+}
+
+div#quarta input:nth-child(3) {
+  background: #76777c;
+  color: #121212;
+}
+
